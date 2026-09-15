@@ -1,0 +1,13 @@
+# Newspaper calendar and continuous commitments
+
+The fictional political year opens 8 January. Narrow escalation remains in January (12th, 15th, 20th), while demobilisation advances through 19 February, 1 March and 6 April. Both routes meet on 1 May, followed by June, July, August, September, October, November and December editions. The ending is the following 8 January. Dates are explicit; no real-world election calendar is implied. Main reports have headline, standfirst, byline and short paragraphs. Archives distinguish earlier decisions from the current report. The main headline leads on mobile.
+
+`src/moment/newsroom.js` owns the presentation calendar. `src/moment/pressure.js` introduces a persistent movement desk, rather than replacing strategic turns. Two teams can be assigned or released before a main decision. Work is resolved once when that decision is committed. Rendering and mini-decisions never spend teams or advance deadlines.
+
+The first sequence on the demobilised route presents three competing March jobs: the hearing file, partner rota and case-record verification. School work follows in May on both routes, mandate coordination in July and family follow-up in November. These involve a recurring fictional cast. Each job has a due date, status, assignment and missed-deadline count.
+
+A built capability of adequate quality completes its relevant assignment in one round. Without it, an assignment makes contact and buys time beyond the next edition; a second assignment completes limited follow-up through personal effort. This does not grant a missing capability, a crisis-delivery flag or an automatic thriving outcome. Work after a missed deadline loses a little ownership/accountability; a second missed deadline transfers the follow-up to another organisation. Legal handoffs add limited party dependence. Outcomes and the latest movement-desk reports explain what happened.
+
+This is an initial continuous pressure implementation. Time advances between editions, not in real time. There is no countdown. It is not yet a fully simulated staff roster, a free-running daily calendar or an animation of a headquarters. Funding is still governed by the existing finance model. The strategic ending rules remain unchanged, with pressure affecting accumulated condition through visible work consequences.
+
+Verification: complete-route regression, two-team UI limit, release, deadline boundary, repeated neglect, capable-team resolution, work carryover, restart and mobile layout. A separate 15,000-route sample varies both strategic choices and team assignments. All four endings remain reachable; balance is provisional.

@@ -1,0 +1,367 @@
+{
+  "counts": {
+    "RELEVANT": 11934,
+    "SURVIVED": 2306,
+    "ABSORBED": 758,
+    "THRIVED": 2
+  },
+  "examples": {
+    "RELEVANT": {
+      "seed": 1,
+      "path": [
+        [
+          0,
+          "stay",
+          "b"
+        ],
+        [
+          1,
+          "stay",
+          "a"
+        ],
+        [
+          2,
+          "stay",
+          "b"
+        ],
+        [
+          3,
+          "stay",
+          "c"
+        ],
+        [
+          3,
+          "exit",
+          "joint"
+        ],
+        [
+          4,
+          "stay",
+          "b"
+        ],
+        [
+          4,
+          "funding",
+          "donor"
+        ],
+        [
+          5,
+          "stay",
+          "b"
+        ],
+        [
+          6,
+          "stay",
+          "d"
+        ],
+        [
+          7,
+          "stay",
+          "d"
+        ],
+        [
+          8,
+          "stay",
+          "a"
+        ],
+        [
+          9,
+          "stay",
+          "a"
+        ],
+        [
+          10,
+          "stay",
+          "b"
+        ],
+        [
+          11,
+          "stay",
+          "d"
+        ]
+      ],
+      "vars": {
+        "rel": 65,
+        "org": 27,
+        "agn": 50,
+        "ind": 35,
+        "acc": 47,
+        "mob": 80
+      }
+    },
+    "SURVIVED": {
+      "seed": 23,
+      "path": [
+        [
+          0,
+          "stay",
+          "b"
+        ],
+        [
+          1,
+          "stay",
+          "d"
+        ],
+        [
+          2,
+          "stay",
+          "a"
+        ],
+        [
+          3,
+          "stay",
+          "a"
+        ],
+        [
+          3,
+          "exit",
+          "close"
+        ],
+        [
+          4,
+          "stay",
+          "c"
+        ],
+        [
+          4,
+          "funding",
+          "crowd"
+        ],
+        [
+          5,
+          "stay",
+          "c"
+        ],
+        [
+          6,
+          "stay",
+          "a"
+        ],
+        [
+          7,
+          "stay",
+          "a"
+        ],
+        [
+          8,
+          "stay",
+          "c"
+        ],
+        [
+          9,
+          "stay",
+          "c"
+        ],
+        [
+          10,
+          "stay",
+          "e"
+        ],
+        [
+          11,
+          "stay",
+          "c"
+        ]
+      ],
+      "vars": {
+        "rel": 47,
+        "org": 24,
+        "agn": 58,
+        "ind": 61,
+        "acc": 15,
+        "mob": 85
+      }
+    },
+    "ABSORBED": {
+      "seed": 33,
+      "path": [
+        [
+          0,
+          "stay",
+          "c"
+        ],
+        [
+          0,
+          "charter",
+          "education"
+        ],
+        [
+          0,
+          "participants",
+          "cjp"
+        ],
+        [
+          0,
+          "structure",
+          "open"
+        ],
+        [
+          1,
+          "stay",
+          "b"
+        ],
+        [
+          1,
+          "agenda",
+          "override"
+        ],
+        [
+          3,
+          "stay",
+          "d"
+        ],
+        [
+          3,
+          "exit",
+          "calendar"
+        ],
+        [
+          4,
+          "stay",
+          "b"
+        ],
+        [
+          4,
+          "funding",
+          "political"
+        ],
+        [
+          5,
+          "stay",
+          "d"
+        ],
+        [
+          6,
+          "stay",
+          "b"
+        ],
+        [
+          7,
+          "stay",
+          "e"
+        ],
+        [
+          8,
+          "stay",
+          "c"
+        ],
+        [
+          9,
+          "stay",
+          "b"
+        ],
+        [
+          10,
+          "stay",
+          "e"
+        ],
+        [
+          11,
+          "stay",
+          "d"
+        ]
+      ],
+      "vars": {
+        "rel": 66,
+        "org": 29,
+        "agn": 76,
+        "ind": 31,
+        "acc": 13,
+        "mob": 87
+      }
+    },
+    "THRIVED": {
+      "seed": 1744,
+      "path": [
+        [
+          0,
+          "stay",
+          "c"
+        ],
+        [
+          0,
+          "charter",
+          "youth"
+        ],
+        [
+          0,
+          "participants",
+          "assembly"
+        ],
+        [
+          0,
+          "structure",
+          "membership"
+        ],
+        [
+          1,
+          "stay",
+          "a"
+        ],
+        [
+          3,
+          "stay",
+          "c"
+        ],
+        [
+          3,
+          "exit",
+          "calendar"
+        ],
+        [
+          4,
+          "stay",
+          "d"
+        ],
+        [
+          4,
+          "funding",
+          "dues"
+        ],
+        [
+          5,
+          "stay",
+          "d"
+        ],
+        [
+          6,
+          "stay",
+          "c"
+        ],
+        [
+          7,
+          "stay",
+          "c"
+        ],
+        [
+          8,
+          "stay",
+          "c"
+        ],
+        [
+          9,
+          "stay",
+          "c"
+        ],
+        [
+          10,
+          "stay",
+          "c"
+        ],
+        [
+          11,
+          "stay",
+          "c"
+        ]
+      ],
+      "vars": {
+        "rel": 62,
+        "org": 62,
+        "agn": 68,
+        "ind": 74,
+        "acc": 53,
+        "mob": 94
+      }
+    }
+  }
+}

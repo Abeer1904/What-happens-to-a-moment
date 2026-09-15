@@ -1,0 +1,367 @@
+{
+  "counts": {
+    "SURVIVED": 4457,
+    "RELEVANT": 9816,
+    "ABSORBED": 726,
+    "THRIVED": 1
+  },
+  "capabilityReach": {
+    "POLITICAL_AGENDA": 4360,
+    "REPRESENTATIVE_MANDATE": 155,
+    "MOBILISATION_MACHINE": 1590
+  },
+  "examples": {
+    "SURVIVED": {
+      "seed": 1,
+      "path": [
+        [
+          0,
+          "leave",
+          "a"
+        ],
+        [
+          0,
+          "assurance",
+          "minister"
+        ],
+        [
+          1,
+          "leave",
+          "c"
+        ],
+        [
+          2,
+          "leave",
+          "b"
+        ],
+        [
+          3,
+          "leave",
+          "a"
+        ],
+        [
+          4,
+          "leave",
+          "c"
+        ],
+        [
+          4,
+          "funding",
+          "dues"
+        ],
+        [
+          5,
+          "leave",
+          "b"
+        ],
+        [
+          6,
+          "leave",
+          "c"
+        ],
+        [
+          7,
+          "leave",
+          "a"
+        ],
+        [
+          8,
+          "leave",
+          "b"
+        ],
+        [
+          9,
+          "leave",
+          "c"
+        ],
+        [
+          10,
+          "leave",
+          "c"
+        ],
+        [
+          11,
+          "leave",
+          "d"
+        ]
+      ],
+      "vars": {
+        "rel": 58.78780630699259,
+        "org": 22,
+        "agn": 57,
+        "ind": 54,
+        "acc": 0,
+        "mob": 45
+      }
+    },
+    "RELEVANT": {
+      "seed": 2,
+      "path": [
+        [
+          0,
+          "stay",
+          "c"
+        ],
+        [
+          0,
+          "charter",
+          "rights"
+        ],
+        [
+          0,
+          "participants",
+          "open"
+        ],
+        [
+          0,
+          "structure",
+          "council"
+        ],
+        [
+          1,
+          "stay",
+          "c"
+        ],
+        [
+          3,
+          "stay",
+          "d"
+        ],
+        [
+          3,
+          "exit",
+          "close"
+        ],
+        [
+          4,
+          "stay",
+          "a"
+        ],
+        [
+          4,
+          "funding",
+          "dues"
+        ],
+        [
+          5,
+          "stay",
+          "c"
+        ],
+        [
+          6,
+          "stay",
+          "a"
+        ],
+        [
+          7,
+          "stay",
+          "d"
+        ],
+        [
+          8,
+          "stay",
+          "c"
+        ],
+        [
+          9,
+          "stay",
+          "d"
+        ],
+        [
+          10,
+          "stay",
+          "c"
+        ],
+        [
+          11,
+          "stay",
+          "c"
+        ]
+      ],
+      "vars": {
+        "rel": 76.90440612465089,
+        "org": 29,
+        "agn": 70,
+        "ind": 72,
+        "acc": 24,
+        "mob": 64
+      }
+    },
+    "ABSORBED": {
+      "seed": 20,
+      "path": [
+        [
+          0,
+          "leave",
+          "a"
+        ],
+        [
+          0,
+          "assurance",
+          "resignation"
+        ],
+        [
+          1,
+          "leave",
+          "c"
+        ],
+        [
+          2,
+          "leave",
+          "c"
+        ],
+        [
+          3,
+          "leave",
+          "d"
+        ],
+        [
+          4,
+          "leave",
+          "a"
+        ],
+        [
+          4,
+          "funding",
+          "donor"
+        ],
+        [
+          5,
+          "leave",
+          "b"
+        ],
+        [
+          6,
+          "leave",
+          "a"
+        ],
+        [
+          7,
+          "leave",
+          "a"
+        ],
+        [
+          8,
+          "leave",
+          "b"
+        ],
+        [
+          9,
+          "leave",
+          "a"
+        ],
+        [
+          10,
+          "leave",
+          "e"
+        ],
+        [
+          11,
+          "leave",
+          "d"
+        ]
+      ],
+      "vars": {
+        "rel": 67.22514483867943,
+        "org": 7,
+        "agn": 68,
+        "ind": 18,
+        "acc": 0,
+        "mob": 57
+      }
+    },
+    "THRIVED": {
+      "seed": 8110,
+      "path": [
+        [
+          0,
+          "stay",
+          "c"
+        ],
+        [
+          0,
+          "charter",
+          "rights"
+        ],
+        [
+          0,
+          "participants",
+          "assembly"
+        ],
+        [
+          0,
+          "structure",
+          "membership"
+        ],
+        [
+          1,
+          "stay",
+          "c"
+        ],
+        [
+          3,
+          "stay",
+          "a"
+        ],
+        [
+          3,
+          "exit",
+          "calendar"
+        ],
+        [
+          4,
+          "stay",
+          "b"
+        ],
+        [
+          4,
+          "funding",
+          "dues"
+        ],
+        [
+          5,
+          "stay",
+          "c"
+        ],
+        [
+          6,
+          "stay",
+          "c"
+        ],
+        [
+          7,
+          "stay",
+          "c"
+        ],
+        [
+          8,
+          "stay",
+          "c"
+        ],
+        [
+          9,
+          "stay",
+          "b"
+        ],
+        [
+          10,
+          "stay",
+          "c"
+        ],
+        [
+          11,
+          "stay",
+          "b"
+        ]
+      ],
+      "vars": {
+        "rel": 84.51365666607097,
+        "org": 59,
+        "agn": 71,
+        "ind": 76,
+        "acc": 55,
+        "mob": 95
+      }
+    }
+  }
+}
